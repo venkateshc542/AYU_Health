@@ -1,0 +1,99 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="row_padding_vertical">10dp</dimen>
+    <dimen name="home_mneu_spacing">0dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!--Text Size-->
+
+    <dimen name="large_text">16sp</dimen>
+    <dimen name="medium_text">14sp</dimen>
+
+    //login page
+    <dimen name="bottom_space">35dp</dimen>
+    <dimen name="top_space">25dp</dimen>
+    <dimen name="login_page_margin_right">20dp</dimen>
+    <dimen name="login_page_margin_left">20dp</dimen>
+    <dimen name="login_page_margin_top">30dp</dimen>
+    <dimen name="login_page_margin_bottom">70dp</dimen>
+    <dimen name="ttile_font">34sp</dimen>
+    <dimen name="input_field_margin_right">25dp</dimen>
+    <dimen name="input_field_margin_left">25dp</dimen>
+    <dimen name="button_margin_right">25dp</dimen>
+    <dimen name="button_margin_left">25dp</dimen>
+    <dimen name="input_field_padding">8dp</dimen>
+    <dimen name="button_font">15sp</dimen>
+    <dimen name="input_label_margin_bottom">2dp</dimen>
+    <dimen name="input_label_margin_top">12dp</dimen>
+    <dimen name="input_field_text_size">12sp</dimen>
+    <dimen name="label_field_text_size">10sp</dimen>
+    <dimen name="version_text_size">11sp</dimen>
+
+    //locale page1
+    <dimen name="page_padding_right">5dp</dimen>
+    <dimen name="page_padding_left">5dp</dimen>
+    <dimen name="page_padding_top">5dp</dimen>
+    <dimen name="form_page_margin_right">15dp</dimen>
+    <dimen name="form_page_margin_left">15dp</dimen>
+
+    <dimen name="form_heading_margin_top">25dp</dimen>
+    <dimen name="form_heading_margin_bottom">10dp</dimen>
+    <dimen name="form_heading_font_size">16sp</dimen>
+    <dimen name="form_heading_margin_left">10dp</dimen>
+
+    <dimen name="button_text_size">15sp</dimen>
+    <dimen name="sinner_height">36dp</dimen>
+
+    <dimen name="error_label_margin_top">2dp</dimen>
+
+
+    //custom drawer item
+    <dimen name="drawer_item_paddingBottom">10dp</dimen>
+    <dimen name="drawer_item_paddingLeft">6dp</dimen>
+    <dimen name="drawer_item_paddingRight">16dp</dimen>
+    <dimen name="drawer_item_paddingTop">10dp</dimen>
+    <dimen name="drawer_item_marginTop">10dp</dimen>
+
+    //main_header_text
+    <dimen name="layout_marginEnd">8dp</dimen>
+    <dimen name="layout_marginLeft">8dp</dimen>
+    <dimen name="layout_marginRight">8dp</dimen>
+    <dimen name="layout_marginTop">3dp</dimen>
+    <dimen name="main_menu_sub_title_text">15dp</dimen>
+
+    <dimen name="toolbar_title_marginTop">13dp</dimen>
+    <dimen name="alert_header_text_size">18sp</dimen>
+    <dimen name="alert_header_margin">15dp</dimen>
+
+    //prospect custom_ toolbar layout
+    <dimen name="layout_marginBottom">1dp</dimen>
+    <dimen name="toolbar_contentInsetStart">0dp</dimen>
+    <dimen name="back_arrow_padding">15dp</dimen>
+    <dimen name="cibil_text_paddingLeft">20dp</dimen>
+    <dimen name="prospect_custom_sub_title_text">12sp</dimen>
+    <dimen name="prospect_custom_cibil_text">40sp</dimen>
+    <dimen name="prospect_actionbar_text_marginleft">2dp</dimen>
+
+
+    <dimen name="rejection_dialog_input_field_padding">6dp</dimen>
+    <dimen name="rejection_dialog_input_field_margin_left">6dp</dimen>
+    <dimen name="list_top_padding">10dp</dimen>
+
+    //succcess alert_dialogue_button_style
+    <dimen name="alert_dialogue_button_height">40dp</dimen>
+    <dimen name="alert_dialogue_button_text_size">14sp</dimen>
+
+    <dimen name="history_margin_left">27dp</dimen>
+    <dimen name="history_margin_label_left">46dp</dimen>
+    <dimen name="history_label_margin_top">1dp</dimen>
+    <dimen name="history_text_margin_top">15dp</dimen>
+    <dimen name="detailed_history_value_txt_left">3dp</dimen>
+
+    <dimen name="activityPadding">16dp</dimen>
+    <dimen name="placeholderImage">60dp</dimen>
+    <dimen name="placeholderTextHeight">8dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+
+</resources>

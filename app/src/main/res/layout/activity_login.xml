@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@color/colorPrimary"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Welcome To"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Ayu Health"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/login_box"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/input_field_margin_left"
+                android:layout_marginRight="@dimen/input_field_margin_right"
+                android:layout_weight="0.7"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/login_screen_title_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="top|center"
+                    android:text="Doctor Login"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/input_field_margin_left"
+                android:layout_marginRight="@dimen/input_field_margin_right"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/login_screen_email_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center"
+                        android:layout_marginTop="@dimen/input_label_margin_top"
+                        android:layout_marginBottom="@dimen/input_label_margin_bottom"
+                        android:background="@drawable/login_inputfield_background"
+                        android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                        android:drawableLeft="@drawable/userid"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="start"
+                        android:hint="Login ID"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="20"
+                        android:padding="10dp"
+                        android:textColorHint="@color/light_gray"
+                        android:textSize="@dimen/input_field_text_size" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/login_screen_password_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/input_label_margin_top"
+                        android:background="@drawable/login_inputfield_background"
+                        android:drawableLeft="@drawable/password"
+                        android:drawablePadding="10dp"
+                        android:ems="10"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="start"
+                        android:hint="Password"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPassword"
+                        android:maxLength="20"
+                        android:padding="10dp"
+                        android:textColorHint="@color/light_gray"
+                        android:textSize="@dimen/input_field_text_size" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/login_screen_forgot_password_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginLeft="@dimen/input_field_margin_left"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="@dimen/input_field_margin_right"
+                android:layout_marginBottom="15dp"
+                android:gravity="right"
+                android:text="forgot password?"
+                android:textColor="@color/light_gray" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/login_screen_login_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginBottom="@dimen/bottom_space"
+                    android:background="@drawable/button_background"
+                    android:elevation="10dp"
+                    android:text="Sign In"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/button_font"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

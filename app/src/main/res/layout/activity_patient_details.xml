@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="14">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="13.7"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="12.7"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/begining_heading_layout_style"
+                android:visibility="gone"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    style="@style/form_heading_style"
+                    android:text="Patient Details" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/form_page_style">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp">
+
+                    <ImageView
+                        android:id="@+id/icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/patient" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        android:background="@color/white"
+                        android:gravity="left|center"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
+
+                        <TextView
+                            android:id="@+id/name_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:text="Venkatesh Chitteti"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/gender_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:text="Male(34)"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/viewfinder_mask"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/Input_layout_style"
+                    android:layout_marginTop="0dp">
+
+                    <TextView
+                        style="@style/Input_field_label_style"
+                        android:text="Patient Name"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/patient_name_edit"
+                        style="@style/Input_field_style"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/mail2"
+                        android:drawablePadding="10dp"
+                        android:padding="0dp"
+                        android:text="Venkateshc542@gmail.com"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/Input_layout_style">
+
+                    <TextView
+                        android:id="@+id/ins_premium_amount_text"
+                        style="@style/Input_field_label_style"
+                        android:text="Age"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/patient_age_edit"
+                        style="@style/Input_field_style"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/phone"
+                        android:drawablePadding="10dp"
+                        android:padding="0dp"
+                        android:text="9972421482"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    style="@style/Input_layout_style"
+                    android:visibility="gone">
+
+                    <TextView
+                        style="@style/radio_button_label_style"
+                        android:text="Gender" />
+
+                    <RadioGroup
+                        android:id="@+id/patient_gender_rg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/patient_male_rb"
+                            style="@style/radio_button_style"
+                            android:text="Male" />
+
+                        <RadioButton
+                            android:id="@+id/patient_female_rb"
+                            style="@style/radio_button_style"
+                            android:checked="true"
+                            android:text="Female" />
+                    </RadioGroup>
+                </LinearLayout>
+
+
+                <LinearLayout style="@style/Input_layout_style">
+
+                    <TextView
+                        style="@style/Input_field_label_style"
+                        android:text="From"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/patient_location_edit"
+                        style="@style/Input_field_style"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/location2"
+                        android:drawablePadding="10dp"
+                        android:padding="0dp"
+                        android:text="HSR Layout"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/light_gray"></View>
+
+
+                <LinearLayout
+                    style="@style/Input_layout_style"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/ins_no_applicant_text"
+                        style="@style/Input_field_label_style"
+                        android:text="Date and Time" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/patient_date_edit"
+                        style="@style/Input_field_style"
+                        android:background="@null"
+                        android:padding="2dp"
+                        android:text="20-04-2010 2.00PM-3.00M"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <LinearLayout style="@style/Input_layout_style">
+
+                    <TextView
+                        android:id="@+id/ins_total_premium_text"
+                        style="@style/Input_field_label_style"
+                        android:text="Description about problem" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/patient_desc_edit"
+                        style="@style/Input_field_style"
+                        android:background="@null"
+                        android:gravity="left|start"
+                        android:inputType="number"
+                        android:maxLength="700"
+                        android:padding="2dp"
+                        android:text="Test Desc" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/Input_layout_style">
+
+                    <TextView
+                        android:id="@+id/patient_pdf_text"
+                        style="@style/Input_field_label_style"
+                        android:drawableLeft="@drawable/pdf"
+                        android:drawablePadding="10dp"
+                        android:gravity="left|center"
+                        android:text="View previous reports documents"
+                        android:textColor="@color/colorPrimary" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.3"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/patient_call_btn"
+            style="@style/button_style"
+            android:drawableStart="@drawable/video"
+            android:drawablePadding="10dp"
+            android:gravity="left|center"
+            android:paddingLeft="115dp"
+            android:text="Start Call"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

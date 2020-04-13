@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <!--<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_profile"
+        android:visibility="visible" />-->
+    <ImageView
+        android:id="@+id/header_profile_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_profile" />
+
+    <TextView
+        android:id="@+id/header_name_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:textSize="14sp"
+        android:text="Dr.Arjit Gupta\n(AYU1000373)"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

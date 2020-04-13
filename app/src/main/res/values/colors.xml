@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#18A4A8</color>
+    <color name="colorPrimaryDark">#186E72</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="light_gray">#BDBDBD</color>
+    <color name="input_field_background">#fafafa</color>
+    <color name="inputfield_label_color">#686868</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+
+    <color name="very_light_gray">#e8e9e9</color>
+    <color name="light_green">#7eb647</color>
+    <color name="medium_gray">#616161</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="LD_gray">#686868</color>
+    <color name="dark_gray">#333333</color>
+
+    <color name="button_background_color">#2961ae</color>
+    <color name="form_heading_label_color">#000000</color>
+
+    <color name="form_heading_background_color">#fafafa</color>
+    <color name="inputfield_color">#000000</color>
+    <color name="button_success_color">#80B548</color>
+
+    <color name="background">#dddddd</color>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <LinearLayout
+            style="@style/toolbar_layout_style"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="0dp">
+
+
+            <TextView
+                style="@style/home_page_welcome_text"
+                android:layout_height="wrap_content"
+                android:text="Hello"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+            <TextView
+                style="@style/main_header_text"
+                android:layout_marginTop="7dp"
+                android:text="Hi Arjit Gupta!"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0dp" />
+
+            <TextView
+                style="@style/home_page_welcome_text"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Last Login 10-Apr-2020 10:00AM"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+
+</LinearLayout>

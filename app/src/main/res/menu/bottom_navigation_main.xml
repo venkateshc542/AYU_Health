@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_home"
+        android:enabled="true"
+        android:icon="@drawable/tab_home"
+        android:title="Home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bottom_profile"
+        android:enabled="true"
+        android:icon="@drawable/tab_search"
+        android:title="Search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bottom_about"
+        android:enabled="true"
+        android:icon="@drawable/tab_bell"
+        android:title="Alerts"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bottom_manage"
+        android:enabled="true"
+        android:icon="@drawable/tab_user"
+        android:title="Profile"
+        app:showAsAction="always" />
+</menu>

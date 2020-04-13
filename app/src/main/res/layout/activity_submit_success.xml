@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="4.5"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/form_page_margin_left"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="@dimen/form_page_margin_right"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/form_heading_style"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:gravity="center"
+                android:text="Submitted Successfully"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="top|center"
+                android:src="@drawable/rounded_tick" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/form_heading_style"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center"
+                android:background="@null"
+                android:gravity="top|center"
+                android:text="Thank you for using Ayu Health."
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/form_heading_style"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center"
+                android:background="@null"
+                android:gravity="top|center"
+                android:text="testID"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/form_heading_style"
+                android:layout_height="match_parent"
+                android:layout_gravity="top|center"
+                android:background="@null"
+                android:gravity="top|center"
+                android:text="To keep the body in good health is a duty... otherwise we shall not be able to keep our mind strong and clear...!"
+                android:textAllCaps="false"
+                android:textColor="@color/inputfield_color"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.37"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/close_btn"
+            style="@style/button_style"
+            android:text="Close"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
